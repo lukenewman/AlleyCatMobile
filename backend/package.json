@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Alley Cat Mobile apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Luke Newman",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.5",
+    "morgan": "^1.9.0"
+  }
+}

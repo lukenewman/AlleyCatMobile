@@ -29,14 +29,23 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["npm run format-code", "git add"]
+    "*.js": [
+      "npm run format-code",
+      "git add"
+    ]
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
     "expo": "^25.0.0",
+    "prop-types": "^15.6.0",
     "react": "16.2.0",
-    "react-native": "0.52.0"
+    "react-native": "0.52.0",
+    "react-native-extended-stylesheet": "^0.8.1",
+    "react-native-meteor": "^1.2.0",
+    "react-native-qrcode": "^0.2.6",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.0.3"
   }
 }
