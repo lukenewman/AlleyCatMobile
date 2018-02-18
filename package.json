@@ -23,14 +23,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --write '*.js'",
-    "format-code": "npm run prettier && npm run lint:fix",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run format-code",
-      "git add"
-    ]
+    "format-code": "npm run prettier && npm run lint:fix"
   },
   "jest": {
     "preset": "react-native"
