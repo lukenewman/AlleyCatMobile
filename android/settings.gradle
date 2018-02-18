@@ -1,0 +1,3 @@
+rootProject.name = 'AlleyCat'
+
+include ':app'

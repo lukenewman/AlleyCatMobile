@@ -1,20 +1,11 @@
 import React from 'react';
-import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
+// import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { StackNavigator, TabNavigator } from 'react-navigation';
 
 import Login from '../screens/Login';
 import QRPage from '../screens/QR';
 import NotificationList from '../screens/NotificationList';
-
-// export const LoginModal = StackNavigator({
-//   Login: {
-//     screen: Login,
-//     navigationOptions: {
-//       header: () => null,
-//     },
-//   },
-// });
 
 export const Main = TabNavigator(
   {

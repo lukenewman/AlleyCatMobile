@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "204208820638",
+    "firebase_url": "https://alley-cat-mobile.firebaseio.com",
+    "project_id": "alley-cat-mobile",
+    "storage_bucket": "alley-cat-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204208820638:android:ba6810901d5d941f",
+        "android_client_info": {
+          "package_name": "com.alleycat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204208820638-9g3l96r00ti6e80crspqe8f1ccpqf8iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDnTGFDhW5xAb7dzw4NawSiDSee4sz0K8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
