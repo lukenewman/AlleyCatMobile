@@ -29,10 +29,12 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "prop-types": "^15.6.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-extended-stylesheet": "^0.8.1",
+    "react-native-firebase": "^3.2.5",
     "react-native-meteor": "^1.2.0",
     "react-native-qrcode": "^0.2.6",
     "react-native-vector-icons": "^4.5.0",

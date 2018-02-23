@@ -2,12 +2,10 @@ import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import { AppRegistry } from 'react-native';
 
-// import Login from './screens/Login';
-// import NotificationList from './screens/NotificationList';
-// import QRPage from './screens/QR';
-
-// import Navigator from './config/routes';
-import { LoginModal, Main, createRootNavigator } from './config/routes';
+import { Main } from './config/routes';
+import Login from './screens/Login';
+// import { LoginModal, Main, createRootNavigator } from './config/routes';
+// import { createRootNavigator } from './config/routes';
 import { isLoggedIn } from './auth';
 
 EStyleSheet.build({
@@ -17,12 +15,6 @@ EStyleSheet.build({
   $grey: '#333',
   $white: '#fff',
 });
-
-// AppRegistry.registerComponent('alleycat', () => Navigator);
-
-// export default () => <Navigator />;
-
-// export default () => <Main />;
 
 export default class App extends React.Component {
   constructor(props) {
@@ -37,15 +29,16 @@ export default class App extends React.Component {
   componentWillMount() {
     isLoggedIn()
       .then(res => this.setState({ loggedIn: res, checkedLogIn: true }))
-      .catch(err => alert('An error occurred.'));
+      .catch(err => alert(err));
   }
 
-  // forceLoginScreen() {
-  //   this.state = {
-  //     loggedIn: false,
-  //     checkedLogIn: false,
-  //   };
-  // }
+  handleLoginPress() {
+    this.setState({ loggedIn: true });
+  }
+
+  handleLogoutPress() {
+    this.setState({ loggedIn: false });
+  }
 
   render() {
     const { checkedLogIn, loggedIn } = this.state;
@@ -57,7 +50,18 @@ export default class App extends React.Component {
 
     console.log('presenting root navigator for loggedIn state', loggedIn);
 
-    const Layout = createRootNavigator(loggedIn);
-    return <Layout />;
+    if (loggedIn) {
+      // const screenProps = {
+      //   onLogoutPress: this.handleLogoutPress(),
+      // };
+
+      // return <Main screenProps={screenProps} />;
+      console.log(JSON.stringify(Main));
+      return <Main />;
+    }
+
+    return <Login onLoginPress={() => this.handleLoginPress()} />;
   }
 }
+
+AppRegistry.registerComponent('AlleyCat', () => App);

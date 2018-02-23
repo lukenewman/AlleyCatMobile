@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native/React/Base/RCTPerformanceLogger.h

@@ -2,9 +2,15 @@ import { AsyncStorage } from 'react-native';
 
 export const USER_KEY = 'alleycat-logged-in';
 
-export const onLogIn = () => AsyncStorage.setItem(USER_KEY, 'true');
+export const onLogIn = () => {
+  console.log('onLogIn');
+  return AsyncStorage.setItem(USER_KEY, 'true');
+};
 
-export const onLogOut = () => AsyncStorage.removeItem(USER_KEY);
+export const onLogOut = () => {
+  console.log('onLogOut');
+  return AsyncStorage.removeItem(USER_KEY);
+};
 
 export const isLoggedIn = () =>
   new Promise((resolve, reject) => {

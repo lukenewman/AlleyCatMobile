@@ -1,0 +1,6 @@
+framework module Pods_AlleyCat {
+  umbrella header "Pods-AlleyCat-umbrella.h"
+
+  export *
+  module * { export * }
+}

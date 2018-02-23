@@ -4,10 +4,16 @@ import { Text, FlatList, View, StatusBar, TouchableWithoutFeedback } from 'react
 import { Container } from '../components/Container';
 import { ListItem, Separator } from '../components/List';
 import notifications from '../data/notifications';
+import { onLogOut } from '../auth';
 
 class NotificationList extends Component {
   handlePress = () => {
     console.log('row press');
+  };
+
+  showLogin = () => {
+    const { screenProps } = this.props;
+    onLogOut().then(this.screenProps.onLogoutPress());
   };
 
   render() {
