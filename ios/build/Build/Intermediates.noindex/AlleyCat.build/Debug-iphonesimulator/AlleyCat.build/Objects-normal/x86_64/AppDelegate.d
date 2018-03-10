@@ -1,7 +1,8 @@
 dependencies: \
-  /Users/luke/Developer/alleycat/alleycat/ios/AlleyCat/AppDelegate.m \
-  /Users/luke/Developer/alleycat/alleycat/ios/AlleyCat/AppDelegate.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/Firebase/Core/Sources/module.modulemap \
+  /Users/luke/Developer/alleycat/alleycat/ios/alleycat/AppDelegate.m \
+  /Users/luke/Developer/alleycat/alleycat/ios/alleycat/AppDelegate.h \
+  ../node_modules/react-native-onesignal/ios/RCTOneSignal/RCTOneSignal.h \
+  ../node_modules/react-native-onesignal/ios/OneSignal.h \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
@@ -10,39 +11,4 @@ dependencies: \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h \
-  /Users/luke/Developer/alleycat/alleycat/ios/Pods/Firebase/Core/Sources/Firebase.h
+  /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

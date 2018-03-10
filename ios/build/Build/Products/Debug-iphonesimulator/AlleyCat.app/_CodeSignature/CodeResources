@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		LjdcErpdyQ6XR0nObMCZAsUsSLQ=
+		ABmx3q25WHZZVqurcU+Ibce7UWI=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
@@ -73,13 +73,9 @@
 		<data>
 		GeAPwZJxsrqhf30Fe0+WGoA3frA=
 		</data>
-		<key>GoogleService-Info.plist</key>
-		<data>
-		tUTyBYli9pZ8txntxgRbgQu5bP4=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		WZzIBd8cjTss2MqQU4PAo5UynYo=
+		3vZLwOMKTYsTNiqwsmuI03marzs=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -91,11 +87,11 @@
 		</data>
 		<key>PlugIns/AlleyCatTests.xctest.dSYM/Contents/Resources/DWARF/AlleyCatTests</key>
 		<data>
-		1yvXgwSNeCIh5tP6ZhjHADB5lYc=
+		FxDRSgZ40WKVYJHgBphccuAqIiM=
 		</data>
 		<key>PlugIns/AlleyCatTests.xctest/AlleyCatTests</key>
 		<data>
-		4KydJDIJfFjPdMACjg+HHfJOgcE=
+		b5Cu0Q0u0xdN958QyulMzqIBFQA=
 		</data>
 		<key>PlugIns/AlleyCatTests.xctest/Info.plist</key>
 		<data>
@@ -112,11 +108,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LjdcErpdyQ6XR0nObMCZAsUsSLQ=
+			ABmx3q25WHZZVqurcU+Ibce7UWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kp5gvLWiWXLTZhnEP4znNZUJX4R0OWF3F6tY87Djk58=
+			a6LpLANW62e67lrfrIYOpeXXHNvgHo3AkY70+HmSgTk=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
@@ -286,17 +282,6 @@
 			dMUJM1uDSzdxGQh6bkAgL5BLsmmLA5ryepmWKLRfvwE=
 			</data>
 		</dict>
-		<key>GoogleService-Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tUTyBYli9pZ8txntxgRbgQu5bP4=
-			</data>
-			<key>hash2</key>
-			<data>
-			sC16wTqygVfIp+yxducDkiPmbz0u0YMeXjOOpFgK9mc=
-			</data>
-		</dict>
 		<key>PlugIns/AlleyCatTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -312,22 +297,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1yvXgwSNeCIh5tP6ZhjHADB5lYc=
+			FxDRSgZ40WKVYJHgBphccuAqIiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			GZ0JWT5zjnHRrTGdDoRz2BqASAYJ90WiQTbzXf9JbJM=
+			zBMcaou1ffo2zxOLBT2hg8ioTtFYDDbAyqjnwxKKtTs=
 			</data>
 		</dict>
 		<key>PlugIns/AlleyCatTests.xctest/AlleyCatTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4KydJDIJfFjPdMACjg+HHfJOgcE=
+			b5Cu0Q0u0xdN958QyulMzqIBFQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z++TzWJI0PffG2Rw2BCW9SKre9q5KYoWbRBk+XRI9Rc=
+			UsEQE3KPJS1e7tOxMdv9dOH7rRH5QXYtLUso7kYgeiY=
 			</data>
 		</dict>
 		<key>PlugIns/AlleyCatTests.xctest/Info.plist</key>

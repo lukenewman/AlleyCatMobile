@@ -1,8 +1,8 @@
-use_frameworks!
 platform :ios, '10.0'
 
-target "AlleyCat" do
+target "alleycat" do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  pod 'Firebase/Messaging'
+  # pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  # pod 'React', :path => '../node_modules/react-native', :subspecs => ['DevSupport']
 end

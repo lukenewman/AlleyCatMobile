@@ -1,5 +1,5 @@
- extern const unsigned char AlleyCatVersionString[];
- extern const double AlleyCatVersionNumber;
+ extern const unsigned char alleycatVersionString[];
+ extern const double alleycatVersionNumber;
 
- const unsigned char AlleyCatVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:AlleyCat  PROJECT:AlleyCat-1" "\n";
- const double AlleyCatVersionNumber __attribute__ ((used)) = (double)1.;
+ const unsigned char alleycatVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:alleycat  PROJECT:AlleyCat-1" "\n";
+ const double alleycatVersionNumber __attribute__ ((used)) = (double)1.;

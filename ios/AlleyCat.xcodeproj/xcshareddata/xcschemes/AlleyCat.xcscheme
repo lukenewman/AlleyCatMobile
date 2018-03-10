@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AlleyCat.app"
-               BlueprintName = "AlleyCat"
-               ReferencedContainer = "container:AlleyCat.xcodeproj">
+               BuildableName = "alleycat.app"
+               BlueprintName = "alleycat"
+               ReferencedContainer = "container:alleycat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "AlleyCatTests.xctest"
-               BlueprintName = "AlleyCatTests"
-               ReferencedContainer = "container:AlleyCat.xcodeproj">
+               BuildableName = "alleycatTests.xctest"
+               BlueprintName = "alleycatTests"
+               ReferencedContainer = "container:alleycat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "AlleyCatTests.xctest"
-               BlueprintName = "AlleyCatTests"
-               ReferencedContainer = "container:AlleyCat.xcodeproj">
+               BuildableName = "alleycatTests.xctest"
+               BlueprintName = "alleycatTests"
+               ReferencedContainer = "container:alleycat.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AlleyCat.app"
-            BlueprintName = "AlleyCat"
-            ReferencedContainer = "container:AlleyCat.xcodeproj">
+            BuildableName = "alleycat.app"
+            BlueprintName = "alleycat"
+            ReferencedContainer = "container:alleycat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AlleyCat.app"
-            BlueprintName = "AlleyCat"
-            ReferencedContainer = "container:AlleyCat.xcodeproj">
+            BuildableName = "alleycat.app"
+            BlueprintName = "alleycat"
+            ReferencedContainer = "container:alleycat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AlleyCat.app"
-            BlueprintName = "AlleyCat"
-            ReferencedContainer = "container:AlleyCat.xcodeproj">
+            BuildableName = "alleycat.app"
+            BlueprintName = "alleycat"
+            ReferencedContainer = "container:alleycat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
