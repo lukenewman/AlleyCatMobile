@@ -2,7 +2,7 @@ import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import { AppRegistry } from 'react-native';
 
-import { Main } from './config/routes';
+import Main from './config/routes';
 import Login from './screens/Login';
 // import { LoginModal, Main, createRootNavigator } from './config/routes';
 // import { createRootNavigator } from './config/routes';
@@ -36,6 +36,10 @@ export default class App extends React.Component {
     OneSignal.addEventListener('opened', this.onOpened);
     OneSignal.addEventListener('registered', this.onRegistered);
     OneSignal.addEventListener('ids', this.onIds);
+  }
+
+  componentDidMount() {
+    OneSignal.configure({});
   }
 
   componentWillUnmount() {
