@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { StatusBar, KeyboardAvoidingView, ScrollView } from 'react-native';
+import { StatusBar, KeyboardAvoidingView, ScrollView, TouchableWithoutFeedback, Keyboard, View, Alert, AsyncStorage } from 'react-native';
 
 import { Container } from '../components/Container';
 import { Logo } from '../components/Logo';
 import { TextInputWithLabel } from '../components/TextInput';
 import { BorderedButton } from '../components/Button';
+import { Loader } from '../components/Loader';
 import { onLogIn } from '../auth';
+import USER_CODE_KEY from '../user';
 
 import firebase from 'react-native-firebase';
 
@@ -20,6 +22,7 @@ class Login extends Component {
     super(props);
 
     this.state = {
+      loading: false,
       name: '',
       code: '',
     };
@@ -41,9 +44,9 @@ class Login extends Component {
     }
 
     if (name.length === 0) {
-      this.setState({ error: 'You must enter a first name.' });
+      Alert.alert('Missing Name', 'You must enter a first name.');
     } else if (code.length === 0) {
-      this.setState({ error: 'You must enter an ACM code.' });
+      Alert.alert('Missing Code', 'You must enter an ACM code.');
     }
 
     return false;
@@ -57,10 +60,13 @@ class Login extends Component {
     var { name, code } = this.state;
 
     if (this.isValid()) {
+      this.setState({
+        loading: true
+      });
       var ref = firebase.database().ref('users');
       var query = ref.orderByChild('code').equalTo(this.state.code);
       query.once('value', snapshot => {
-        snapshot.forEach(child => {
+        snapshot.forEach(async (child) => {
           const firebaseName = child
             .val()
             .name.split(' ')[0]
@@ -69,7 +75,18 @@ class Login extends Component {
           name = name.toLowerCase();
           code = code.toLowerCase();
           if (name === firebaseName && code === firebaseCode) {
+            this.setState({
+              loading: false
+            });
+            try {
+              await AsyncStorage.setItem(USER_CODE_KEY, code);
+            } catch (error) {
+              alert(error);
+            }
             this.navigatePastLogin();
+          } else {
+            console.log('bad login');
+            Alert.alert('Login Error', 'There was a probblem with your information. Please double-check your credentials and try again.');
           }
         });
       });
@@ -79,24 +96,27 @@ class Login extends Component {
   render() {
     return (
       <Container>
+        <Loader loading={this.state.loading} />
         <StatusBar translucent={false} barStyle="light-content" />
-        <KeyboardAvoidingView behavior="padding">
-          <Logo />
-          <TextInputWithLabel
-            autoCorrect={false}
-            labelText="first_name"
-            onChangeText={this.handleNameChangeText}
-          />
-          <TextInputWithLabel
-            autoCorrect={false}
-            autoCapitalize="none"
-            returnKeyType={'go'}
-            labelText="acm_code"
-            onChangeText={this.handleCodeChangeText}
-          />
-        </KeyboardAvoidingView>
+        <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+          <KeyboardAvoidingView behavior="padding">
+            <Logo />
+            <TextInputWithLabel
+              autoCorrect={false}
+              labelText="first_name"
+              onChangeText={this.handleNameChangeText}
+            />
+            <TextInputWithLabel
+              autoCorrect={false}
+              autoCapitalize="none"
+              returnKeyType={'go'}
+              labelText="acm_code"
+              onChangeText={this.handleCodeChangeText}
+            />
+          </KeyboardAvoidingView>
+        </TouchableWithoutFeedback>
         <BorderedButton text="log_in" onPress={this.handlePressLogIn} />
-      </Container>
+      </Container >
     );
   }
 }

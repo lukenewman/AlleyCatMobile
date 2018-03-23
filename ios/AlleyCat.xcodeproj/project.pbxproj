@@ -45,6 +45,7 @@
 		A301AF89205465E8008C5297 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A301AF7420546451008C5297 /* SystemConfiguration.framework */; };
 		A301AF8A205465ED008C5297 /* libRCTOneSignal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A301AED420544958008C5297 /* libRCTOneSignal.a */; };
 		A351CEBB205468AE0057DA87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A351CEBA205468AE0057DA87 /* GoogleService-Info.plist */; };
+		A351CEC82058A8A30057DA87 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A351CEC72058A8A20057DA87 /* Ionicons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
 
@@ -397,6 +398,7 @@
 		A301AF81205465BF008C5297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A351CEBA205468AE0057DA87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../assets/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A351CEBC2056035A0057DA87 /* alleycat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = alleycat.entitlements; path = alleycat/alleycat.entitlements; sourceTree = "<group>"; };
+		A351CEC72058A8A20057DA87 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B64F2ACECCB99124141FCBAA /* libPods-alleycat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alleycat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF69280B8A2148CE51EF7FE4 /* Pods-alleycat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alleycat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alleycat/Pods-alleycat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -560,6 +562,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				A351CEC72058A8A20057DA87 /* Ionicons.ttf */,
 			);
 			name = alleycat;
 			sourceTree = "<group>";
@@ -1236,6 +1239,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A351CEC82058A8A30057DA87 /* Ionicons.ttf in Resources */,
 				A351CEBB205468AE0057DA87 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

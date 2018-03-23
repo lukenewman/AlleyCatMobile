@@ -2,18 +2,17 @@ import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import { AppRegistry } from 'react-native';
 
+import { isLoggedIn } from './auth';
+
 import Main from './config/routes';
 import Login from './screens/Login';
-// import { LoginModal, Main, createRootNavigator } from './config/routes';
-// import { createRootNavigator } from './config/routes';
-import { isLoggedIn } from './auth';
 import OneSignal from 'react-native-onesignal';
 
 EStyleSheet.build({
   // $outline: 1, // Uncomment this line to outline all components in-app.
   $primaryBlack: '#000',
   $primaryGreen: '#90FA4D',
-  $grey: '#333',
+  $grey: '#DDD',
   $white: '#fff',
 });
 
@@ -49,25 +48,6 @@ export default class App extends React.Component {
     OneSignal.removeEventListener('ids', this.onIds);
   }
 
-  onReceived(notification) {
-    console.log("Notification received: ", notification);
-  }
-
-  onOpened(openResult) {
-    console.log('Message: ', openResult.notification.payload.body);
-    console.log('Data: ', openResult.notification.payload.additionalData);
-    console.log('isActive: ', openResult.notification.isAppInFocus);
-    console.log('openResult: ', openResult);
-  }
-
-  onRegistered(notifData) {
-    console.log("Device had been registered for push notifications!", notifData);
-  }
-
-  onIds(device) {
-    console.log('Device info: ', device);
-  }
-
   handleLoginPress() {
     this.setState({ loggedIn: true });
   }
@@ -83,8 +63,6 @@ export default class App extends React.Component {
     if (!checkedLogIn) {
       return null;
     }
-
-    console.log('presenting root navigator for loggedIn state', loggedIn);
 
     if (loggedIn) {
       return <Main />;

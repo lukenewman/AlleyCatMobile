@@ -18,7 +18,7 @@ const styles = EStyleSheet.create({
   },
   text: {
     paddingTop: 50,
-    color: '$primaryGreen',
+    color: '$grey',
     fontSize: 20,
     fontWeight: 'bold',
   },
