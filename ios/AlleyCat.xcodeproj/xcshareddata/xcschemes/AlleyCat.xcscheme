@@ -31,7 +31,7 @@
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
                BuildableName = "alleycat.app"
                BlueprintName = "alleycat"
-               ReferencedContainer = "container:alleycat.xcodeproj">
+               ReferencedContainer = "container:AlleyCat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "alleycatTests.xctest"
                BlueprintName = "alleycatTests"
-               ReferencedContainer = "container:alleycat.xcodeproj">
+               ReferencedContainer = "container:AlleyCat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -54,6 +54,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -63,7 +64,7 @@
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "alleycatTests.xctest"
                BlueprintName = "alleycatTests"
-               ReferencedContainer = "container:alleycat.xcodeproj">
+               ReferencedContainer = "container:AlleyCat.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -73,16 +74,17 @@
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "alleycat.app"
             BlueprintName = "alleycat"
-            ReferencedContainer = "container:alleycat.xcodeproj">
+            ReferencedContainer = "container:AlleyCat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -96,7 +98,7 @@
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "alleycat.app"
             BlueprintName = "alleycat"
-            ReferencedContainer = "container:alleycat.xcodeproj">
+            ReferencedContainer = "container:AlleyCat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -115,7 +117,7 @@
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "alleycat.app"
             BlueprintName = "alleycat"
-            ReferencedContainer = "container:alleycat.xcodeproj">
+            ReferencedContainer = "container:AlleyCat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

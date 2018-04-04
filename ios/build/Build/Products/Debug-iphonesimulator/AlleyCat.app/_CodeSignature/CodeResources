@@ -4,9 +4,45 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<data>
+		fKtYrv9uZnb7n8SX/z5/joX9+9A=
+		</data>
+		<key>AppIcon20x20@3x.png</key>
+		<data>
+		QesRNtBGfAjo+ja1TSLvfa+XAW0=
+		</data>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		5WK0EcMTHfx6cRXhmFWFpevjOfw=
+		</data>
+		<key>AppIcon29x29@3x.png</key>
+		<data>
+		AE2AP2PWaBM58XVpQb11aw1xa1Q=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		7pH/S9iN40ilrKBQydBAg3jZzlk=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		jYMfprfMCdpZC431DlCMZBcdLFM=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		jYMfprfMCdpZC431DlCMZBcdLFM=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		u0mn+eOcLqBPlZmWECgmz1Og9nM=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		33i6gIRD/6WzDi5xNCDkLwVfgfs=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		ABmx3q25WHZZVqurcU+Ibce7UWI=
+		9mhaRRlQMCQWChKCZmNsozBEeDU=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
@@ -73,9 +109,17 @@
 		<data>
 		GeAPwZJxsrqhf30Fe0+WGoA3frA=
 		</data>
+		<key>GoogleService-Info.plist</key>
+		<data>
+		tUTyBYli9pZ8txntxgRbgQu5bP4=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		3vZLwOMKTYsTNiqwsmuI03marzs=
+		VctS0KgzMVzF+0Zv3vmXOWzCers=
+		</data>
+		<key>Ionicons.ttf</key>
+		<data>
+		D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -83,36 +127,147 @@
 		</data>
 		<key>PlugIns/AlleyCatTests.xctest.dSYM/Contents/Info.plist</key>
 		<data>
-		QJDc/0r9r2IOR32HxJteH8NyFQ0=
+		gZ3Ea2MyoqwDS6HvCnLHv7ma57U=
 		</data>
 		<key>PlugIns/AlleyCatTests.xctest.dSYM/Contents/Resources/DWARF/AlleyCatTests</key>
 		<data>
-		FxDRSgZ40WKVYJHgBphccuAqIiM=
-		</data>
-		<key>PlugIns/AlleyCatTests.xctest/AlleyCatTests</key>
-		<data>
-		b5Cu0Q0u0xdN958QyulMzqIBFQA=
+		I7cD3iscGLnEU5byPc1bwuf/5CI=
 		</data>
 		<key>PlugIns/AlleyCatTests.xctest/Info.plist</key>
 		<data>
-		hSjqU4l8PFc5sjPjeInrdCAedQo=
+		6t7W4t1B2zsyFFXpMHGIhLBQbAg=
 		</data>
 		<key>PlugIns/AlleyCatTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		H3nIKPHlqGbCu05LwzLEkvle35U=
+		UFKItzln7P0TTfvpeSq9Qe7MAPs=
+		</data>
+		<key>PlugIns/AlleyCatTests.xctest/alleycatTests</key>
+		<data>
+		e8btnR6Tdx52HnCD2iddb7bDCLM=
+		</data>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/Info.plist</key>
+		<data>
+		WOqSEGZBueXsm4/C9VzvW7QA8xU=
+		</data>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/OneSignalNotificationServiceExtension</key>
+		<data>
+		FMOBagBZ42iUu01mbwiRj44VH3Y=
+		</data>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/_CodeSignature/CodeResources</key>
+		<data>
+		kxljCkK/CA+D/6tmjsqg0FQdW2w=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fKtYrv9uZnb7n8SX/z5/joX9+9A=
+			</data>
+			<key>hash2</key>
+			<data>
+			22uenmOS+JJUwW0c8J4y3ZqVLvZRQTQX+5fu3NOjL+A=
+			</data>
+		</dict>
+		<key>AppIcon20x20@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QesRNtBGfAjo+ja1TSLvfa+XAW0=
+			</data>
+			<key>hash2</key>
+			<data>
+			ePMgoTCMjekub+TsaBU3TrT+iU/DPf+I7YWjqNcK1/A=
+			</data>
+		</dict>
+		<key>AppIcon29x29@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5WK0EcMTHfx6cRXhmFWFpevjOfw=
+			</data>
+			<key>hash2</key>
+			<data>
+			QtPffMAVGVVKvPxY08xsCcEqbThWeW2t5svv4AZ7978=
+			</data>
+		</dict>
+		<key>AppIcon29x29@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AE2AP2PWaBM58XVpQb11aw1xa1Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			2hV2tuNYA3F8AYfDUEbKBWShLbZeF9QxQBm/vfyoy44=
+			</data>
+		</dict>
+		<key>AppIcon40x40@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7pH/S9iN40ilrKBQydBAg3jZzlk=
+			</data>
+			<key>hash2</key>
+			<data>
+			AQBJooTwbns0xI/UFOC/Zu3csQf2PKfflH85b8YMVP0=
+			</data>
+		</dict>
+		<key>AppIcon40x40@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jYMfprfMCdpZC431DlCMZBcdLFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			4Ee7eUfxvz4LYWGodJJ4UQqwOFfiKRj3sq5us29BxXw=
+			</data>
+		</dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jYMfprfMCdpZC431DlCMZBcdLFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			4Ee7eUfxvz4LYWGodJJ4UQqwOFfiKRj3sq5us29BxXw=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u0mn+eOcLqBPlZmWECgmz1Og9nM=
+			</data>
+			<key>hash2</key>
+			<data>
+			acbkNXGjFlobMMRrdRl9SbuE8t/BgVV25AptvM0Vg/o=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			33i6gIRD/6WzDi5xNCDkLwVfgfs=
+			</data>
+			<key>hash2</key>
+			<data>
+			9AzkGRY6F7cLF9zDkIKEU67nAf7nlFo4MLf3xIQSdGQ=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ABmx3q25WHZZVqurcU+Ibce7UWI=
+			9mhaRRlQMCQWChKCZmNsozBEeDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			a6LpLANW62e67lrfrIYOpeXXHNvgHo3AkY70+HmSgTk=
+			A+1+22h50uD1nses/lHq8krf7wzyMAhC07UG6syq4Ow=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
@@ -282,59 +437,114 @@
 			dMUJM1uDSzdxGQh6bkAgL5BLsmmLA5ryepmWKLRfvwE=
 			</data>
 		</dict>
+		<key>GoogleService-Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tUTyBYli9pZ8txntxgRbgQu5bP4=
+			</data>
+			<key>hash2</key>
+			<data>
+			sC16wTqygVfIp+yxducDkiPmbz0u0YMeXjOOpFgK9mc=
+			</data>
+		</dict>
+		<key>Ionicons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			u0dnmwuuuEgbf1HGitM65aUmc2y1CxcXzGD/a2X5CKM=
+			</data>
+		</dict>
 		<key>PlugIns/AlleyCatTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QJDc/0r9r2IOR32HxJteH8NyFQ0=
+			gZ3Ea2MyoqwDS6HvCnLHv7ma57U=
 			</data>
 			<key>hash2</key>
 			<data>
-			/KwEIQOa3fuhGwutst/Pd1eqC8mcE6fdioQJA1Svsbo=
+			UOj6ahOUiax24g2I3bT8AzK5KeJvJ1aMaB5h0ACdGLg=
 			</data>
 		</dict>
 		<key>PlugIns/AlleyCatTests.xctest.dSYM/Contents/Resources/DWARF/AlleyCatTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FxDRSgZ40WKVYJHgBphccuAqIiM=
+			I7cD3iscGLnEU5byPc1bwuf/5CI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zBMcaou1ffo2zxOLBT2hg8ioTtFYDDbAyqjnwxKKtTs=
-			</data>
-		</dict>
-		<key>PlugIns/AlleyCatTests.xctest/AlleyCatTests</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b5Cu0Q0u0xdN958QyulMzqIBFQA=
-			</data>
-			<key>hash2</key>
-			<data>
-			UsEQE3KPJS1e7tOxMdv9dOH7rRH5QXYtLUso7kYgeiY=
+			nfyb1Pep/+c/9MZSigE/cYXqadlwhwrHUbhCeSfdoIs=
 			</data>
 		</dict>
 		<key>PlugIns/AlleyCatTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hSjqU4l8PFc5sjPjeInrdCAedQo=
+			6t7W4t1B2zsyFFXpMHGIhLBQbAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GXPig+wkK/YGALpcc5BrUJmxrmtW9z5cDzuo/vwo3k4=
+			h5ROP0dztr9XVZ9f9tBtXtbQj5dTIqpPd4/Q50yxvOA=
 			</data>
 		</dict>
 		<key>PlugIns/AlleyCatTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H3nIKPHlqGbCu05LwzLEkvle35U=
+			UFKItzln7P0TTfvpeSq9Qe7MAPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			XVLZTreziCH1kVoea9vkI2AcbvkfyrEtqMBhmoO6Tu8=
+			ofBrNQG6oUV8LPqg10qmbf54LJ+Baj6O+HOqlB36HcU=
+			</data>
+		</dict>
+		<key>PlugIns/AlleyCatTests.xctest/alleycatTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e8btnR6Tdx52HnCD2iddb7bDCLM=
+			</data>
+			<key>hash2</key>
+			<data>
+			fskDfywSgdUgk/9Ht2CrYtP6xnCn0SHZzT0VC8+r2VE=
+			</data>
+		</dict>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WOqSEGZBueXsm4/C9VzvW7QA8xU=
+			</data>
+			<key>hash2</key>
+			<data>
+			tZKj7iExlO6VCWHegbrFzMMNwtT0pHnyFfvKTEuPKFc=
+			</data>
+		</dict>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/OneSignalNotificationServiceExtension</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FMOBagBZ42iUu01mbwiRj44VH3Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZS6TjUNA1Xtz0PQuFCq4d1r9G1++Q12mA1cRNvdlLCc=
+			</data>
+		</dict>
+		<key>PlugIns/OneSignalNotificationServiceExtension.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kxljCkK/CA+D/6tmjsqg0FQdW2w=
+			</data>
+			<key>hash2</key>
+			<data>
+			bE3l62E+3YaHILhaN+vLDSA5Ks5Hnwz3/E+9HpBqO3A=
 			</data>
 		</dict>
 	</dict>

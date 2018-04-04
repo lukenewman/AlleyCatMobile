@@ -4,8 +4,6 @@ import QRCode from 'react-native-qrcode';
 
 import { Logo } from '../Logo';
 
-import USER_CODE_KEY from '../../user';
-
 import styles from './styles';
 
 class Pass extends Component {
@@ -15,7 +13,7 @@ class Pass extends Component {
 
   async componentDidMount() {
     try {
-      const value = await AsyncStorage.getItem(USER_CODE_KEY);
+      const value = await AsyncStorage.getItem('alleycat-user-code');
       if (value !== null) {
         this.setState({
           code: value

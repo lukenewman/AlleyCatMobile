@@ -1,17 +1,14 @@
 dependencies: \
   /Users/luke/Developer/alleycat/alleycat/node_modules/react-native-firebase/ios/RNFirebase/database/RNFirebaseDatabaseReference.m \
   /Users/luke/Developer/alleycat/alleycat/node_modules/react-native-firebase/ios/RNFirebase/database/RNFirebaseDatabaseReference.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h \
-  ../../../ios/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h \
   /Users/luke/Developer/alleycat/alleycat/node_modules/react-native-firebase/ios/RNFirebase/database/RNFirebaseDatabase.h \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/luke/Developer/alleycat/alleycat/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
@@ -24,27 +21,23 @@ dependencies: \
   /Users/luke/Developer/alleycat/alleycat/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseEvents.h \
   /Users/luke/Developer/alleycat/alleycat/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseUtil.h \
   ../../../ios/Pods/Headers/Public/Firebase/Firebase.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h \
-  ../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h \
-  /Users/luke/Developer/alleycat/alleycat/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h \
-  ../../../ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
-  ../../../ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap \
-  ../../../ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h \
-  ../../../ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h \
+  ../../../ios/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRAnalyticsConfiguration.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h \
+  ../../../ios/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRApp.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h \
+  ../../../ios/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRConfiguration.h \
+  ../../../ios/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIRLoggerLevel.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h \
+  ../../../ios/Pods/Headers/Public/FirebaseCore/FirebaseCore/FIROptions.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h \
+  ../../../ios/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsSwiftNameSupport.h \
+  ../../../ios/Pods/Headers/Public/FirebaseCore/FirebaseCore/FirebaseCore.h \
+  ../../../ios/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h \
+  ../../../ios/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h \
+  ../../../ios/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h

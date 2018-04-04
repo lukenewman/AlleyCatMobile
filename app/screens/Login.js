@@ -7,8 +7,6 @@ import { Logo } from '../components/Logo';
 import { TextInputWithLabel } from '../components/TextInput';
 import { BorderedButton } from '../components/Button';
 import { Loader } from '../components/Loader';
-import { onLogIn } from '../auth';
-import USER_CODE_KEY from '../user';
 
 import firebase from 'react-native-firebase';
 
@@ -50,10 +48,6 @@ class Login extends Component {
     }
 
     return false;
-  }
-
-  navigatePastLogin = () => {
-    onLogIn().then(this.props.onLoginPress);
   };
 
   handlePressLogIn = () => {
@@ -79,13 +73,12 @@ class Login extends Component {
               loading: false
             });
             try {
-              await AsyncStorage.setItem(USER_CODE_KEY, code);
+              await AsyncStorage.setItem('alleycat-user-code', code);
             } catch (error) {
               alert(error);
             }
-            this.navigatePastLogin();
+            this.props.navigation.navigate('Main');
           } else {
-            console.log('bad login');
             Alert.alert('Login Error', 'There was a probblem with your information. Please double-check your credentials and try again.');
           }
         });

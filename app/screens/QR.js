@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { View, Text, TouchableWithoutFeedback, StatusBar, Alert } from 'react-native';
+import { View, Text, TouchableWithoutFeedback, StatusBar, Alert, AsyncStorage } from 'react-native';
 
 import { Container } from '../components/Container';
 import { Pass } from '../components/Pass';
 import { Header } from '../components/Header';
-
-import { onLogOut } from '../auth';
 
 class QRPage extends Component {
   static propTypes = {
     navigation: PropTypes.object,
   };
 
-  showLogin = () => {
-    onLogOut().then(() => this.props.navigation.navigate('Login'));
+  handleLogoutPress = async () => {
+    await AsyncStorage.removeItem('alleycat-user-code');
+    this.props.navigation.navigate('Login');
   };
 
   handleSettingsPress = () => {
@@ -22,7 +21,7 @@ class QRPage extends Component {
       'Log Out',
       'Are you sure you want to log out?',
       [
-        { text: 'Yes', onPress: () => console.log('yes pressed') },
+        { text: 'Yes', onPress: () => this.handleLogoutPress() },
         { text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel' },
       ],
       { cancelable: false }

@@ -1,11 +1,13 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { TabNavigator } from 'react-navigation';
+import { TabNavigator, SwitchNavigator } from 'react-navigation';
 
 import QRPage from '../screens/QR';
 import NotificationList from '../screens/NotificationList';
+import Login from '../screens/Login';
+import AuthLoadingScreen from '../screens/AuthLoading';
 
-const Main = TabNavigator(
+const MainTab = TabNavigator(
   {
     QR: {
       screen: QRPage,
@@ -45,4 +47,15 @@ const Main = TabNavigator(
   },
 );
 
-export default Main;
+const NavigationContainer = SwitchNavigator(
+  {
+    Main: MainTab,
+    Login: Login,
+    AuthLoading: AuthLoadingScreen,
+  },
+  {
+    initialRouteName: 'AuthLoading',
+  }
+);
+
+export default NavigationContainer;
